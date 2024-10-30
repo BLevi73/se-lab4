@@ -1,0 +1,4 @@
+#Create a ship with both stores containing 1 torpedo
+GT4500,1,0,1,0
+TORPEDO,ALL # should have fired from all stores
+TORPEDO,ALL # should have fired from all stores
