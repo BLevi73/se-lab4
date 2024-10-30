@@ -1,0 +1,10 @@
+#Create a ship with both stores containing 1 torpedo
+GT4500,1,0,1,0
+TORPEDO,ALL # should have fired from all stores
+TORPEDO,ALL # should fail
+#Create a ship with the primary store containing 1 torpedo
+GT4500,1,0,0,0
+TORPEDO,ALL # should have fired from the primary store
+#Create a ship with the secondary store containing 1 torpedo
+GT4500,0,0,1,0
+TORPEDO,ALL # should have fired from the secondary store
